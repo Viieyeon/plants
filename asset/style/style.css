@@ -436,6 +436,10 @@ p {
     margin-bottom: 20px;
 }
 
+.simplebar-content{
+    min-height: 1000px;
+}
+
 
 @media (max-width: 1250px) {
 
