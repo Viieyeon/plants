@@ -443,7 +443,7 @@ p {
         margin-bottom: 100px;
     }
 
-    .header__inner{
+    .header__inner {
         width: 90vw;
     }
 }
@@ -454,16 +454,27 @@ p {
         margin-top: 100px;
         margin-left: 550px;
     }
+
+     .cart-product__delete {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+     .cart-product__delete {
+        margin-top: 49px;
+        margin-right: 55px;
+    }
 }
 
 
 @media (max-width: 990px) {
 
-    .header__inner{
+    .header__inner {
         gap: 30px;
     }
 
-    .plants__banner{
+    .plants__banner {
         background-image: none;
     }
 
@@ -472,7 +483,14 @@ p {
         margin-left: 96px;
     }
 
-    
+    .card-info-inner {
+        flex-direction: column;
+    }
+
+    .card-info-inner img {
+        max-width: 50%;
+    }
+
 }
 
 @media (max-width: 780px) {
@@ -482,30 +500,36 @@ p {
         gap: 30px;
     }
 
-    .line{
+    .line {
         display: none;
     }
 
-    .catalog__inner{
+    .catalog__inner {
         text-align: center;
     }
-    
+
     .col-md-12 {
         flex: 0 0 auto;
         width: 100%;
     }
 
-    .footer__inner{
+    .footer__inner {
         gap: 30px;
     }
+
+   
 }
 
 @media (max-width: 400px) {
-    .cart__content{
+    .cart__content {
         width: 380px;
     }
 
-    .cart-content__bottom{
+    .cart-content__bottom {
         flex-direction: column;
+    }
+
+    .catalogPage__title {
+        text-align: center;
     }
 }
